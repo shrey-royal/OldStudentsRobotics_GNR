@@ -2,15 +2,16 @@
 // int led = 9;
 
 // 2_Multiple_LEDs Declaration
-int red = 12;
-int blue = 11;
+int l[] = {12, 11, 10, 9, 8};
+int size = sizeof(l)/sizeof(l[0]);
 
 void setup() {
   // blinkSetup(led);
-  multipleLedSetup(red, blue);
+  // multipleLedSetup(red, blue);
+  multipleLedSetup2(l, size);
 }
 
 void loop() {
   // blinkLoop(led);
-  multipleLedLoop(red, blue);
+  multipleLedLoop2(l, size);
 }
