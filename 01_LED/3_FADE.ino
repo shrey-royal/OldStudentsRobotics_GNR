@@ -23,6 +23,4 @@ void fadeLoop(int ledPin) {
     delay(30);
   }
   delay(1000);
-
-  random()
 }

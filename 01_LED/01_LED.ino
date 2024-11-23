@@ -1,14 +1,14 @@
 // 1_Blink Declarations
-int led = 9;
+// int led = 9;
 
 // 2_Multiple_LEDs Declaration
-// int l[] = {12, 11, 10, 9, 8};
-// int size = sizeof(l)/sizeof(l[0]);
+int l[] = {3, 5, 6, 9, 10};
+int size = sizeof(l)/sizeof(l[0]);
 
 void setup() {
-  fadeSetup(led);
+  fadeSetup2(l, size);
 }
 
 void loop() {
-  fadeLoop(led);
+  fadeLoop2(l, size);
 }
